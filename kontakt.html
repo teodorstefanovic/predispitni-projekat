@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt | Restoran Kod Gema</title>
+</head>
+<body>
+    <center>
+        <nav>
+            <a href="index.html">Početna</a> | 
+            <a href="jelovnik.html">Jelovnik</a> | 
+            <a href="galerija.html">Galerija</a> | 
+            <a href="o-nama.html">O nama</a> | 
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+        <hr>
+        <h1>Kontaktirajte nas</h1>
+    </center>
+
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Rezervacija i upiti</legend>
+            
+            <p>
+                <label for="ime">Ime i prezime:</label><br>
+                <input type="text" id="ime" name="ime" required>
+            </p>
+
+            <p>
+                <label for="email">E-mail adresa:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="telefon">Broj telefona:</label><br>
+                <input type="tel" id="telefon" name="telefon">
+            </p>
+
+            <p>
+                <label for="datum">Datum posete:</label><br>
+                <input type="date" id="datum" name="datum">
+            </p>
+
+            <p>
+                <label>Vrsta proslave:</label><br>
+                <input type="radio" name="tip" value="rodjendan"> Rođendan<br>
+                <input type="radio" name="tip" value="poslovno"> Poslovni ručak<br>
+                <input type="radio" name="tip" value="ostalo"> Ostalo
+            </p>
+
+            <p>
+                <label for="poruka">Vaša poruka:</label><br>
+                <textarea id="poruka" name="poruka" rows="5" cols="40"></textarea>
+            </p>
+
+            <input type="submit" value="Pošalji zahtev">
+            <input type="reset" value="Poništi">
+        </fieldset>
+    </form>
+
+    <hr>
+    <p align="center">Adresa: Dunavska 15, Novi Sad | Telefon: 021/123-456</p>
+</body>
+</html>
